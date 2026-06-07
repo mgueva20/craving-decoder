@@ -67,8 +67,8 @@
             <div class="form-card">
                 <h2>Get The Craving Decoder</h2>
                 <p>Enter your email. The PDF hits your inbox in 30 seconds.</p>
-                <form class="email-form" action="#" method="POST" onsubmit="handleSubmit(event)">
-                    <input type="email" name="email" placeholder="your@email.com" required>
+                <form class="email-form" action="https://noctra-wellness.kit.com/f97e6c832e" method="POST">
+                    <input type="email" name="email_address" placeholder="your@email.com" required>
                     <button type="submit">Send Me The Free Guide →</button>
                 </form>
                 <p class="form-note">🔒 No spam. Unsubscribe anytime. Your email stays private.</p>
@@ -142,17 +142,5 @@
             <p>© 2026 Sugar Reset. Built for people who are done with detoxes that don't last.</p>
         </div>
     </footer>
-    <script>
-        function handleSubmit(e) {
-            e.preventDefault();
-            const btn = e.target.querySelector('button');
-            btn.textContent = 'Sending...';
-            btn.disabled = true;
-            setTimeout(() => {
-                btn.textContent = '✓ Check Your Inbox!';
-                btn.style.background = '#10b981';
-            }, 1500);
-        }
-    </script>
 </body>
 </html>
