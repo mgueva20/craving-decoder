@@ -62,14 +62,15 @@
             </div>
         </div>
     </section>
-    <section class="form-section">
+    <section class="form-section" id="form">
         <div class="container">
             <div class="form-card">
                 <h2>Get The Craving Decoder</h2>
                 <p>Enter your email. The PDF hits your inbox in 30 seconds.</p>
-                <a href="noctra-wellness.kit.com" class="cta-button" style="display:block; max-width:400px; margin:0 auto; text-align:center;">
-    Get The Free Guide →
-</a>
+                <form class="email-form" action="https://app.kit.com/forms/9540414/subscriptions" method="POST">
+                    <input type="email" name="email_address" placeholder="your@email.com" required>
+                    <button type="submit">Send Me The Free Guide →</button>
+                </form>
                 <p class="form-note">🔒 No spam. Unsubscribe anytime. Your email stays private.</p>
             </div>
         </div>
@@ -133,7 +134,7 @@
         <div class="container">
             <h2>Stop Fighting Cravings. Start Reading Them.</h2>
             <p>87% of people who quit sugar for 30 days relapse by day 45. This decoder changes why cravings happen — so they barely happen at all.</p>
-            <a href="#" class="cta-button" onclick="document.querySelector('.email-form input').focus(); return false;">Get The Free Guide →</a>
+            <a href="#form" class="cta-button">Get The Free Guide →</a>
         </div>
     </section>
     <footer>
